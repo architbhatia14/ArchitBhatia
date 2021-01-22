@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Group Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="about.html">About</a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          ARCHIT BHATIA
+        </div>
+      </div>
+    </div>
+
+    <div class="container-wrapper">
+      <div class="two-column-wrapper">
+        <div class="profile-page-image">
+          <video src="pics/video.MOV" width="600" height="700" controls></video>
+        </div>
+
+        <div class="profile-content-wrapper">
+          <h1>Group Projects</h1>
+          <h6>Smart Shelf (3rd Year) </h6>
+          <p6>This 3rd year engineering project's goal was to build a shelf for retail stores to make stocking the shelf
+            and inventory more
+            efficient. This project consists of three components, <br><br>1. The shelf which had all the hardware
+            <br><br> 2.
+            The data base to store
+            all the information <br><br> 3. The GUI application.
+            <br><br>Archit developed the GUI application using Android Studio,
+            which he then had
+            linked to the computer running the main data base to send user inputs of the item being stocked.
+            The device was created using one Arduino and two Raspberry Pis. <br><br>The Arduino had sensors connected to
+            them to detect how far the item is from the front and if the re-stock
+            button was pressed the backing would move all the way to the back. Once all the sensing was done this
+            information was stored
+            into the database. The user was able to enter the product information such as name and price into the GUI
+            when was then stored
+            into the database.
+
+          </p6>
+
+          <h6> Elevator Subsystem (3rd Year)</h6>
+
+          <p6>
+            Developed a simulation for an elevator subsystem in Eclipses using Java. The project was broken up into
+            iterations, the first iteration consisted of using UML diagrams to create the basic classes for the
+            subsystem and have them connecting. This was done by using Server and Clients to send messages between the
+            subsystems.
+            <br><br>
+            Iteration two required the addition of state machines to determine when and elevator has arrived at the
+            location then send this information to the scheduler subsystem (main subsystem).
+            <br><br>
+            The final iteration required UDP packets to be send in order to allow the use of multiple elevator systems,
+            each subsystem was setup on its own computer which sent UDP packets to communicate the states of where each
+            elevator is. From this the system would detect which elevator was closest to the floor that has requested
+            service and would go to the requested floor. This allowed for minimization of wait time for the person
+            waiting at the floor and maximize efficiency of the system.
+
+
+          </p6>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
